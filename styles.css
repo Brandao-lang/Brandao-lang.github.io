@@ -77,12 +77,17 @@ ul {
 
   .my-skills {
       /* text-align: center; */
+      /* margin: 0 auto; */
      display:grid;
      justify-content: center;
      grid-template-columns: 230px 230px;
      grid-template-rows: auto auto;
      column-gap: 70px;
      row-gap: 75px;
+}
+
+.my-skills svg {
+    margin: 0 auto;
 }
 
 .skill-header {
@@ -114,8 +119,6 @@ ul {
     margin: 0 auto;
     text-align: center; 
 }
-
-
 
 .contacts svg {
     width: auto;
