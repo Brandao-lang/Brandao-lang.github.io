@@ -105,4 +105,20 @@ ul {
     height:45vh;
 }
 
+.my-projects svg {
+    width: auto;
+    height:10vh
+}
+
+.contacts {
+    margin: 0 auto;
+    text-align: center; 
+}
+
+
+
+.contacts svg {
+    width: auto;
+    height:10vh
+}
 
