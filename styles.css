@@ -1,5 +1,11 @@
 body {
   margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  /* background-color: #e3e3e3; */
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 svg {
@@ -36,6 +42,11 @@ li {
   margin: 50px;
 }
 
+li a {
+  font-weight: bold;
+  color: black;
+}
+
 .nav-btn {
   text-decoration: none;
   font-size: 25px;
@@ -55,9 +66,14 @@ li {
 }
 
 .about-me p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   padding: 20px;
   line-height: 2.4rem;
+  font-weight: normal;
+}
+
+.about-me span {
+  font-weight: bold;
 }
 
 button {
@@ -96,8 +112,6 @@ button:hover {
 
 .project-header {
   text-align: center;
-  /* margin-top: 50px;
-    margin-bottom: 50px; */
 }
 
 .my-projects {
@@ -112,15 +126,39 @@ button:hover {
 
 .my-projects svg {
   width: auto;
-  height: 10vh;
+  height: 5vh;
 }
 
-.contacts {
-  margin: 0 auto;
-  text-align: center;
+.my-projects svg:hover {
+  width: auto;
+  height: 7vh;
+  transition: 0.3s;
 }
 
 .contacts svg {
   width: auto;
-  height: 10vh;
+  height: 3vh;
+  margin: 10px;
+}
+
+.contacts svg:hover {
+  width: auto;
+  height: 4vh;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+.contact-text {
+  width: 30vw;
+  text-align: center;
+}
+
+.contact-container {
+  display: grid;
+  text-align: center;
+  align-self: center;
+  width: 50vw;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  margin: 0 auto;
 }
