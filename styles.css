@@ -125,6 +125,10 @@ button:hover {
   height: 45vh;
 }
 
+.slideshow-container button {
+  margin: 4px;
+}
+
 .my-projects svg {
   width: auto;
   height: 4vh;
