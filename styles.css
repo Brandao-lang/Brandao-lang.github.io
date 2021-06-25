@@ -107,10 +107,6 @@ button:hover {
   margin: 0 auto;
 }
 
-/* .slides {
-  display: none;
-} */
-
 .skill-header {
   text-align: center;
 }
@@ -131,12 +127,12 @@ button:hover {
 
 .my-projects svg {
   width: auto;
-  height: 5vh;
+  height: 4vh;
 }
 
 .my-projects svg:hover {
   width: auto;
-  height: 7vh;
+  height: 5vh;
   transition: 0.3s;
 }
 
